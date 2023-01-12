@@ -4,7 +4,7 @@
 // define a function and a parameter
 function joinArray(arr) {
     // use join instead of toString, join lets you use any seperater 
-    return (arr.join(' ,'));
+    return arr.join(' ,');
 }
 //  make an array and call it in the function 
 const fruits = ['kiwi', 'apple', 'orange','melon']
