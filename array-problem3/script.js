@@ -22,3 +22,13 @@ function sortArray(arr) {
 
 const num = [10, 24, 5, 0, -3, 3, -20,]
 sortArray(num)
+
+// Another solution thats shorter
+function greatest(array) {
+    console.log(array.sort(function(a,b) {
+      return  a - b
+    }))
+  }
+  
+  nums = [-1,1,-10,3,5,4,3,7,0]
+  greatest(nums)
